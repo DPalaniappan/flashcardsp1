@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/Card.css';
 
-const card = (props) => {
+const Card = (props) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [animate, setAnimate] = useState(false);
   const handleClick = () => {
@@ -29,4 +29,4 @@ const card = (props) => {
   )
 }
 
-export default card;
+export default Card;
